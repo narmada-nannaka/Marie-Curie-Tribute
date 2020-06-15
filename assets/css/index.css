@@ -49,30 +49,6 @@ a {
   z-index: 2;
 }
 
-#slide-text {
-  font-family: Satisfy, cursive;
-  font-size: 3rem;
-  max-width: 20rem;
-  height: auto;
-  position: absolute;
-  left: 4rem;
-  z-index: 1;
-  color: gray;
-  text-align: center;
-}
-
-#image:hover {
-  animation-name: slide;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes slide {
-  100% {
-    opacity: 0.5;
-  }
-}
-
 #img-caption {
   padding: 1rem 0rem;
 }
@@ -110,10 +86,6 @@ p {
 
   h2 {
     font-size: 1rem;
-  }
-
-   #slide-text {
-    font-size: 0.75rem;
   }
 
 }
